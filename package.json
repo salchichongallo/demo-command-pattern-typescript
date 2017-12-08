@@ -1,0 +1,28 @@
+{
+  "private": true,
+  "version": "1.0.0",
+  "description": "(Demo) IoC Command Pattern with TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "build": "node_modules/.bin/tsc",
+    "postinstall": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "IoC",
+    "Design Patterns",
+    "TypeScript",
+    "Inversion of Control",
+    "Dependency Injection"
+  ],
+  "author": "Jimmy Murillo",
+  "license": "MIT",
+  "dependencies": {
+    "inversify": "^4.6.0",
+    "reflect-metadata": "^0.1.10"
+  },
+  "devDependencies": {
+    "typescript": "^2.6.2"
+  }
+}
